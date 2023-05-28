@@ -1,2 +1,10 @@
-package PizzaDeliveryApp;public interface Pizza {
+package PizzaDeliveryApp;
+
+public interface Pizza {
+    void prepare();
+    void bake();
+    void cut();
+    void box();
+    String getSize();
+    String getCrustType();
 }
